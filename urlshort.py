@@ -6,7 +6,7 @@ def url():
 | |_| | |  | \__ \ | | | (_) | |  | |_ 
  \__,_|_|  |_|___/_| |_|\___/|_|   \__|
                                        """)
-    url = input(" instagram / snapchat / facebook >> ")
+    url = input(" instagram / snapchat / facebook / twitter  >> ")
     urlshort1 = input("ShortCut >> ").replace("https://", "")
     if url == "instagram":
         print("Success Link >> https://instagram.com-instagram@" + urlshort1)
@@ -16,6 +16,9 @@ def url():
         print("Thanks For Useing Script") 
     elif url == "facebook":
         print("Success Link >> https://facebook.com-facebook@" + urlshort1)
+        print("Thanks For Useing Script")
+    elif url == "twitter":
+        print("Success Link >> https://twitter.com-twitter@" + urlshort1)
         print("Thanks For Useing Script")
     else:
         print("Somthing Wrong try again [!]")
